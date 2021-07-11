@@ -1,0 +1,14 @@
+{
+  "name": "heroku_login",
+  "version": "1.0.0",
+  "description": "test script for the-internet.herokuapp.com/login page ",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "Vitaly",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.7.0"
+  }
+}

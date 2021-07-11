@@ -1,0 +1,19 @@
+{
+  "loginUrl": "https://the-internet.herokuapp.com/login",
+  "secureUrl": "https://the-internet.herokuapp.com/secure",
+  "username": "tomsmith",
+  "password": "SuperSecretPassword!",
+  "invalidUsername": "tom",
+  "invalidPassword": "12345678",
+  "loginHead": "Login Page",
+  "loginSubhead": "This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is wrong you should see error messages.",
+  "usernameLabel": "Username",
+  "passwordLabel": "Password",
+  "successSign": "You logged into a secure area!",
+  "signOutSuccess": "You logged out of the secure area!",
+  "usernameError": "Your username is invalid!",
+  "passwordError": "Your password is invalid!",
+  "secureHead": "Secure Area",
+  "secureSubhead": "Welcome to the Secure Area. When you are done click logout below.",
+  "userWelcomeSign": "Welcome"
+}
