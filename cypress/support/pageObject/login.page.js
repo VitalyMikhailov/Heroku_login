@@ -1,4 +1,3 @@
-
 class LoginPage {
     loginHead()
     {
@@ -15,14 +14,14 @@ class LoginPage {
         return cy.get('[for="username"]');
     }
 
-    usernameInput()
-    {
-        return cy.get('#username');
-    }
-
     passwordLabel()
     {
         return cy.get('[for="password"]');
+    }
+
+    usernameInput()
+    {
+        return cy.get('#username');
     }
 
     passwordInput()

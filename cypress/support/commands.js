@@ -1,5 +1,4 @@
 import Login from "./pageObject/login.page";
-import DataJson from "../fixtures/data.json";
 
 //login with Enter pressing
 Cypress.Commands.add('loginEnter', (login, password) => {

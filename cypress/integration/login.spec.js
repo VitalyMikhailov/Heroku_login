@@ -2,8 +2,6 @@ import Login from '../support/pageObject/login.page'
 import LogedIn from '../support/pageObject/logedIn.page'
 import DataJson from '../fixtures/data.json'
 
-
-
 describe('Test Login Functionality', () => {
     function loginPageElemsCheck () {
         Login.loginHead().should('contain.text', DataJson.loginHead);
@@ -18,7 +16,6 @@ describe('Test Login Functionality', () => {
         LogedIn.secureHead().should('contain.text',DataJson.secureHead);
         LogedIn.secureSubhead().should('contain.text',DataJson.secureSubhead);
     }
-
 
     beforeEach(()=> {
         cy.visit("login");
